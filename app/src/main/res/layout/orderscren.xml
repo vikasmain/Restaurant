@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/red_bg" android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:textStyle="bold" android:textSize="17dp" android:text="No of item" android:gravity="center" style="@android:anim/slide_in_left" android:id="@+id/orderitem"/>
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Add to Order" android:gravity="center" android:id="@+id/Place_Order_btn" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/devide_quanity" android:layout_marginBottom="40dp" android:layout_alignRight="@+id/Place_Order" android:layout_alignParentLeft="true" android:layout_above="@+id/Place_Order_btn"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Devide quanity by(Ex. 1/2 )" android:id="@+id/devidetextview" android:layout_marginBottom="17dp" android:layout_alignParentLeft="true" android:layout_above="@+id/devide_quanity"/>
+
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:id="@+id/Quantity" android:layout_marginBottom="14dp" android:layout_alignParentLeft="true" android:layout_above="@+id/devidetextview">
+
+    <requestFocus/>
+
+</EditText>
+
+</RelativeLayout>

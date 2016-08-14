@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="@drawable/red_bg" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/list"> </ListView>
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/PlaceOrder_btn" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:layout_alignParentBottom="true" android:text="SendOrder"/>
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/gotomenu_btn" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:layout_alignParentBottom="true" android:text="GoToMenu" android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

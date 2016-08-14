@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:orientation="vertical" android:padding="10dp" android:background="@drawable/ic_launcher" android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_above="@+id/l3">
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Menu" android:id="@+id/Go_To_Menu"/>
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Order" android:id="@+id/Go_To_Order_List"/>
+
+    <!-- <Button android:id="@+id/custinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_style" android:textColor="#FC00FF" android:layout_weight="1" android:text="Customer" />-->
+
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/l3" android:layout_alignParentBottom="true">
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Find Store" android:id="@+id/FindStore"/>
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Information" android:id="@+id/Info"/>
+
+</LinearLayout>
+
+</RelativeLayout>

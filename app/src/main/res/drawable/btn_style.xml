@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true" android:drawable="@drawable/hover" android:state_pressed="true"/>
+
+    <item android:state_focused="false" android:drawable="@drawable/hover" android:state_pressed="true"/>
+
+    <item android:state_focused="true" android:drawable="@drawable/hover"/>
+
+    <item android:state_focused="false" android:drawable="@drawable/pressed" android:state_pressed="false"/>
+
+</selector>

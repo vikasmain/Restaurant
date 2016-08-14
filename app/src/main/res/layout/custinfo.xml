@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="2dip" android:orientation="vertical" android:background="@drawable/ic_launcher">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:layout_gravity="center" android:textColor="#04FE00" android:textSize="17dp" android:text="Please Enter Your Information"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5dip" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:text="Enter your Name" android:layout_marginTop="40dip" android:id="@+id/custnametext"/>
+
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="40dip" android:id="@+id/cust_name" android:layout_marginLeft="28dip">
+
+    <requestFocus/>
+
+</EditText>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5dip" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:text="Enter Your No." android:layout_marginTop="40dip"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="40dip" android:id="@+id/cust__number" android:layout_marginLeft="42dip" android:maxLength="12" android:inputType="phone"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5dip" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:text="Enter your email Id" android:layout_marginTop="40dip"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="40dip" android:id="@+id/cust_email" android:layout_marginLeft="15dip" android:inputType="textEmailAddress"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5dip" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:text="Enter Your Address" android:layout_marginTop="40dip"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="40dip" android:id="@+id/cust_adress" android:layout_marginLeft="15dip" android:inputType="textMultiLine"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/btn_style" android:layout_gravity="center" android:textColor="#04FE00" android:textSize="20dp" android:text="Go" android:layout_marginTop="10dp" android:id="@+id/Save" android:textStyle="bold"/>
+
+</LinearLayout>
+
+</ScrollView>

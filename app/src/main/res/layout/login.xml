@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:background="@drawable/ic_launcher" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5dip">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Enter Your Name" android:layout_marginTop="40dip"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="40dip" android:layout_marginLeft="3dip" android:id="@+id/user_text"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5dip">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Enter Phone No." android:layout_marginTop="40dip"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="40dip" android:layout_marginLeft="6dip" android:id="@+id/pass_text" android:maxLength="12" android:inputType="phone"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5dp" android:paddingTop="50dp">
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Login" android:layout_marginTop="40dip" android:id="@+id/new_user" android:layout_weight="1.7"/>
+
+    <Button android:background="@drawable/btn_style" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#04FE00" android:textStyle="bold" android:textSize="15dp" android:text="Registration" android:layout_marginTop="40dip" android:id="@+id/registerd_user" android:layout_weight="0.3"/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:background="@drawable/red_bg" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15dip" android:textColor="#000000" android:text="@string/text1" android:id="@+id/textView1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15dip" android:textColor="#000000" android:text="@string/text2" android:id="@+id/textView2"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15dip" android:textColor="#000000" android:text="@string/text3" android:id="@+id/textView3"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="15dip" android:textColor="#000000" android:text="@string/text4" android:id="@+id/textView3"/>
+
+</LinearLayout>
